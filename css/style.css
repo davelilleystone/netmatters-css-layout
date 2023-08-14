@@ -23,6 +23,12 @@ header {
   height: 25vh;
 }
 
+/* a {
+  display: block;
+  background-color: tomato;
+  width: 400px;
+} */
+
 aside img,
 #bio {
   width: 100%;
@@ -34,6 +40,10 @@ aside img,
   border: 5px solid tomato;
   background-color: mistyrose;
 }
+
+/* .hide {
+  display: none;
+} */
 
 footer {
   width: 200px;
@@ -49,4 +59,12 @@ section {
   min-height: 100vh;
   border-bottom: 3px solid #222;
   background-color: azure;
+}
+
+li {
+  display: inline-block;
+  width: 30%;
+  padding: 10px 0;
+  background-color: yellow;
+  text-align: center;
 }

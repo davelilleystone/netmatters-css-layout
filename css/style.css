@@ -20,14 +20,16 @@ header {
   border-bottom-color: #cf7919;
   /* margin: 20px 5px; */
   margin: -8px -8px 20px;
+  height: 25vh;
 }
 
-aside img {
-  width: 600px;
+aside img,
+#bio {
+  width: 100%;
+  max-width: 600px;
 }
 
 #bio {
-  width: 600px;
   padding: 2rem;
   border: 5px solid tomato;
   background-color: mistyrose;
@@ -41,4 +43,10 @@ footer {
   color: #294969;
   font-size: 0.8rem;
   text-align: center;
+}
+
+section {
+  min-height: 100vh;
+  border-bottom: 3px solid #222;
+  background-color: azure;
 }
